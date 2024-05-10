@@ -29,6 +29,11 @@ author :
 #
 production_url : tednotfred.github.io
 
+# The basepath is supposed to handle this but it keeps screwing up and
+# saying it can't find the repo ARRRGGGHHHHHH
+
+repository: tednotfred/tednotfred.github.io
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
