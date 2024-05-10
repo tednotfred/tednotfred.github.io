@@ -8,8 +8,12 @@ gem 'jekyll-sitemap'
 
 gem 'jekyll', '~> 3.6'
 
+<<<<<<< HEAD
 gem "webrick", "~> 1.8"
 
 end
 
 
+=======
+end
+>>>>>>> gh-pages
