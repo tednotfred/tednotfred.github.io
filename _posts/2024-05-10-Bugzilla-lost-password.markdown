@@ -1,6 +1,8 @@
 ---
 title: Bugzilla Lost Passwords
 layout: post
+date: "2024-05-10 13:30:00 -0700"
+tags: [server]
 ---
 ## Resetting a lost passwordin Bugzilla.
 
@@ -13,15 +15,16 @@ Anyway the solution was fairly easy actually.
 
 NOTE: this is a dangerous solution that leaves the admin user exposed for a little while. Take reasonable precautions to prevent access until finished. Either with firewall rules or via an Apache .htaccess rule.
 
-Sign on to Mysql via the command line on the server in question
+Sign on to Mysql via the command line on the server in question.
 
----sql
+
+~~~sql
 
 USE bugs; (the bugzilla database)
 UPDATE profiles SET cryptpassword=null WHERE userid=1;
 QUIT;
 
----
+~~~
 
 
 **NOTE:**  *userid is the id of an admin user*
