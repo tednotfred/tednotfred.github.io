@@ -1,7 +1,6 @@
 ---
 title: Bugzilla Lost Passwords
 layout: post
-date: "2024-05-10 13:30:00 -0700"
 tags: [server]
 ---
 ## Resetting a lost passwordin Bugzilla.
@@ -9,11 +8,15 @@ tags: [server]
 
 I had a situation where we had an old Bugzilla server that hadn’t been used for several years. As these things often happen, the “powers that be” suddenly decided we need that server to be back up and running NOW. Of course, nobody could remember their passwords any more and the email password mechanism had stopped working.
 
+
 A Google search could only seem to turn up suggestions that started with “login to an admin user…”. Yeah, if I could do that I wouldn’t really have problem would I?
 
-Anyway the solution was fairly easy actually.
 
-NOTE: this is a dangerous solution that leaves the admin user exposed for a little while. Take reasonable precautions to prevent access until finished. Either with firewall rules or via an Apache .htaccess rule.
+Anyway the solution was pretty easy actually.
+
+
+This is a dangerous solution that leaves the admin user exposed for a short time. You should take reasonable precautions to prevent access until finished. Either with firewall rules or via an Apache .htaccess rule.
+
 
 Sign on to Mysql via the command line on the server in question.
 
@@ -29,14 +32,14 @@ QUIT;
 
 **NOTE:**  *userid is the id of an admin user*
 
-You can now login as that admin user with no password
-(see I told you it was dangerous).
+You can now login as that admin user with no password *see I told you it was dangerous* .
 
 
 As admin you can change the password of another user to a password you can rememember, so go ahead and do that.
 
 
 Now if you go back into the database and list everything you will see the encrypted passwords.
+
 
 Now just set the password for your admin user and use the encrypted string in place of null in the above SQL statement.
 
