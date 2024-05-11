@@ -21,7 +21,7 @@ txtFile.onreadystatechange = function () {
             lines = txtFile.responseText.split("\n");
             randLine = lines[Math.floor((Math.random() * lines.length) + 1)];
             document.getElementById('quote').innerHTML = randLine ||
-                "Intelligence is the ability to adapt to change."; // fallback quote
+                "When the IT Dept is you."; // fallback quote
         }
     }
 };
@@ -36,5 +36,5 @@ function searchHandler() {
     var searchInput = document.getElementById('search-text');
     var text = searchInput.value;
     // add site:example.com in the placeholder
-    window.location.href = "https://www.google.com/search?q=site:nagekar.com " + text;
+    window.location.href = "https://www.google.com/search?q=site:www.zero-it.ca " + text;
 }
