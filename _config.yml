@@ -10,12 +10,12 @@ highlighter: rouge
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
-title : Soot Spirits
-tagline: Code, Science, Philosophy, Humor
+title : Zero IT
+tagline: Code, DevOPS, Linux, Humor
 author :
-  name : Abhishek Nagekar
-  email : abhishek@nagekar.com
-  github : abhn
+  name : Ted Clark
+  email : tedclark@zero-it.ca
+  github : tednotfred
   twitter : abhisheknagekar
   feedburner : AbhishekN
 
