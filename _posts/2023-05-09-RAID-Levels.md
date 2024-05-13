@@ -5,7 +5,7 @@ tags: [server]
 ---
 ## Common RAID Levels
 
-![Raid Levels](/assets/RAID-10.png)
+![Raid Levels](/assets/images/RAID-10.png)
 
 
 ___
