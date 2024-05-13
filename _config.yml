@@ -38,6 +38,19 @@ timezone: America/Toronto
 #encoding: utf-8
 #github: [metadata]
 
+plugins:
+  - jekyll-openmoji
+
+# Where things are
+emoji:
+  src: "https://github.githubassets.com"
+  asset: "/images/icons/emoji/unicode"
+  extension: "png"
+  img_attrs:
+    class: "emoji"
+    height: "25"
+    width: "25"
+
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
@@ -117,8 +130,5 @@ JB :
   # Setting any helper's provider to 'custom' will bypass the helper code
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
-  # where [HELPER] is the name of the helper you are overriding.
 
-  plugins:
-  - jemoji
 
