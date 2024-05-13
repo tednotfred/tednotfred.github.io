@@ -27,12 +27,16 @@ author :
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : tednotfred.github.io
+production_url : zero-it.ca
 
 # The basepath is supposed to handle this but it keeps screwing up and
 # saying it can't find the repo ARRRGGGHHHHHH
 
 repository: tednotfred/tednotfred.github.io
+
+timezone: America/Toronto
+#encoding: utf-8
+#github: [metadata]
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -114,3 +118,4 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
+
