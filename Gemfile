@@ -11,3 +11,5 @@ gem 'jekyll', '~> 3.6'
 end
 
 gem "webrick", "~> 1.8"
+
+gem 'jemoji'
