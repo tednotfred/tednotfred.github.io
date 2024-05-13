@@ -1,8 +1,4 @@
----
-title: Bugzilla Lost Passwords
-layout: post
-tags: [server]
----
+
 ## Resetting a lost passwordin Bugzilla.
 
 

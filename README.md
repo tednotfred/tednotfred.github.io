@@ -1,3 +1,16 @@
+---
+title: My Post Title
+layout: post
+tags: [server]
+---
+
+Add the above snippet to the top of your post.
+TAGS should all be lower case and separated by commas.
+Posts should be named in the format:
+yyyy-mm-dd-My-Post_title.md
+Place them in the _posts folder.
+
+
 # Soot Spirits Jekyll Theme
 
 Soot Spirits is a responsive mobile ready lightweight two column Jekyll theme made with Bulma CSS. It is a great template for simple personal blogs with focus on typography.
