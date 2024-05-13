@@ -15,7 +15,7 @@ ___
 RAID 0, also known as a striped set or a striped volume, requires a minimum of two disks. The disks are merged into a single large volume where data is stored evenly across the number of disks in the array.
 
 
-It is important to note that this type of RAID consists of disks of different sizes, each will be limited to the smallest disk size in the setup. This means that an array composed of two disks, where one is 320 GB, and the other is 120 GB, actually has the capacity of 2 x 120 GB (or 240 GB in total).
+It is important to note that if this type of RAID consists of disks of different sizes, each will be limited to the smallest disk size in the setup. This means that an array composed of two disks, where one is 500 GB, and the other is 225 GB, actually has the capacity of 2 x 225 GB (or 450 GB in total).
 
 
 RAID Zero doesn’t offer redundancy. If a disk fails then the array will fail and data will likely be lost but, there can be significant speed benefits when retrieving data from this type of array.
@@ -36,7 +36,7 @@ ___
 ## FIVE
 
 
-RAID 5, is considered the most secure and is probably the most common RAID implementation. It combines striping and parity to provide a fast and reliable setup. Such a configuration gives the user storage usability as with RAID 1 and the performance efficiency of RAID 0.
+RAID 5, is considered the most secure and is probably the most common RAID implementation. It combines striping and parity to provide a fast and reliable setup. Such a configuration gives the user storage usability as with *RAID 1* and the performance efficiency of *RAID 0* .
 
 
 This type of RAID requires at least three hard drives (and at most, 16). Data is divided into data strips and distributed across different disks in the array.
