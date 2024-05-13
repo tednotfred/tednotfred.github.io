@@ -12,4 +12,4 @@ end
 
 gem "webrick", "~> 1.8"
 
-gem 'jekyll-openmoji'
+gem 'jemoji'

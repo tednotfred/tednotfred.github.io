@@ -38,18 +38,9 @@ timezone: America/Toronto
 #encoding: utf-8
 #github: [metadata]
 
-plugins:
-  - jekyll-openmoji
+gems:
+  - jemoji
 
-# Where things are
-emoji:
-  src: "https://github.githubassets.com"
-  asset: "/images/icons/emoji/unicode"
-  extension: "png"
-  img_attrs:
-    class: "emoji"
-    height: "25"
-    width: "25"
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
