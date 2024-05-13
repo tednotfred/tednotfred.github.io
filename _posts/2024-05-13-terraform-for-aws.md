@@ -3,7 +3,7 @@ title: Terraform for AWS
 layout: post
 tags: [server]
 ---
-## Use Terrform for creating AWS Infrastructure
+### Use Terrform for creating AWS Infrastructure.
 
 
 You can use Terraform to create many types of AWS infrastructure like new EC2 instances.
@@ -24,10 +24,11 @@ ___
 ___
 
 
-*NOTE:*  **make sure that terraform.tfvars gets placed in your .gitignore file because you don’t want this info broadcasted anywhere.**
+**NOTE:**  
+*make sure that terraform.tfvars gets placed in your .gitignore file because you don’t want this info broadcasted anywhere.*
 
 
-Format **terraform.tfvars** as below (replace the quoted entries) : 
+Format the file **terraform.tfvars** as below (replacing the quoted entries) : 
 
 
 ~~~bash
