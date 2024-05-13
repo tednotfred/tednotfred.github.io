@@ -1,5 +1,5 @@
 ---
-title: Bugzilla Lost Passwords
+title: Open Speed Test
 layout: post
 tags: [lan,network]
 ---
