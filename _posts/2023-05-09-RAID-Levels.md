@@ -56,7 +56,7 @@ RAID 10 uses logical mirroring to write the same data on two or more drives to p
 To implement such a configuration, the array requires at least four drives, as well as a disk controller.
 
 
-RAID 10 arrays can also be difficult to scale up later if needed.
+RAID 10 arrays can be difficult to scale up later if needed.
 
 
 ___
