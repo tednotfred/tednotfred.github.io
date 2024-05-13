@@ -62,7 +62,10 @@ RAID 10 arrays can also be difficult to scale up later if needed.
 ___
 
 
-:zap:  *RAID won’t replace backups.* You can easilly get into a situation where corrupted data has been perfectly replicated across the array.
+:zap:  **RAID won’t replace backups...** 
+
+
+*You can easilly get into a situation where corrupted data has been perfectly replicated across the array.*
 
 
 *Ask me how I know this?*
