@@ -61,7 +61,7 @@ RAID 10 arrays can also be difficult to scale up later if needed.
 
 ___
 
-:warning: **Warning:**  Another thing to remember is that RAID can’t replace backups. You can easilly get into a situation where corrupted data has been perfectly replicated across the array.
+:warning:  **Warning:**  Another thing to remember is that RAID can’t replace backups. You can easilly get into a situation where corrupted data has been perfectly replicated across the array.
 
 
 *Ask me how I know this?*
