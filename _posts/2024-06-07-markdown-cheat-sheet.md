@@ -9,7 +9,7 @@ tags: [markdown]
 
 These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
 
-### Heading
+### <u>Heading</u>
 
 ```
 # Heading Number 1
@@ -21,15 +21,8 @@ These are the elements outlined in John Gruber’s original design document. All
 ## Heading Number 2
 ### Heading Number 3
 
-### Bold
 
-```
-**my important bolded words**
-```
-
-**my important bolded words**
-
-### Italic
+### <u>Italic</u>
 
 ```
 *this is not italian !*
@@ -37,7 +30,8 @@ These are the elements outlined in John Gruber’s original design document. All
 
 *this is not italian !*
 
-### Blockquote
+
+### <u>Blockquote</u>
 
 ```
 > You Talkin to me!
@@ -45,7 +39,8 @@ These are the elements outlined in John Gruber’s original design document. All
 
 > You Talkin to me!
 
-### Ordered List
+
+### <u>Ordered List</u>
 
 ```
 1. Eggs
@@ -57,7 +52,7 @@ These are the elements outlined in John Gruber’s original design document. All
 2. Red Peppers
 3. Onions
 
-### Unordered List
+### <u>Unordered List</u>
 
 ```
 - Read
@@ -69,7 +64,7 @@ These are the elements outlined in John Gruber’s original design document. All
 - Try
 - Repeat
 
-### Code
+### <u>Code</u>
 
 ```
 `my code`
@@ -77,32 +72,34 @@ These are the elements outlined in John Gruber’s original design document. All
 
 `my code`
 
-### Horizontal Rule
+### <u>Horizontal Rule</u>
 ```
 ---
 ```
 
 ---
 
-### Link
+### <u>HyperLink</u>
 ```
 [Markdown Guide](https://www.markdownguide.org)
 ```
 
 [Markdown Guide](https://www.markdownguide.org)
 
-### Image
+### <u>Image</u>
 ```
 ![a little penguin](https://www.markdownguide.org/assets/images/tux.png)
 ```
 
 ![a little penguin](https://www.markdownguide.org/assets/images/tux.png)
+
+---
 
 ## Extended Syntax
 
 More syntax that is not always available. This depends on the Markdown used.
 
-### Table
+### <u>Table</u>
 ```
 | Item | Desc. |
 | ----------- | ----------- |
@@ -115,7 +112,7 @@ More syntax that is not always available. This depends on the Markdown used.
 | one | Item 1 |
 | two | Item 2 |
 
-### Fenced Code Block
+### <u>Fenced Code Block</u>
 Three backticks
 
 code block
@@ -126,14 +123,14 @@ Three backticks
 <?php echo 'Hello, World!'; ?>
 ```
 
-### Strikethrough
+### <u>Strikethrough</u>
 ```
 ~~Dare you strike me ?~~
 ```
 
 ~~Dare you strike me ?~~
 
-### Task Lists are cool
+### <u>Task Lists are cool</u>
 ```
 - [x] I did this thing
 - [ ] I want to do this
@@ -145,7 +142,7 @@ Three backticks
 - [ ] Then. I will do this
 
 
-### Emoji
+### <u>Emoji</u>
 ```
 Don't forget to leave a star for our service! :star:
 ```
@@ -154,7 +151,7 @@ Don't forget to leave a star for our service! :star:
 Don't forget to leave a star for our service! :star:
 
 
-### Highlight
+### <u>Highlight</u>
 ```
 I think this is ==important== !
 ```
