@@ -8,6 +8,7 @@ tags: [markdown]
 ## Basic Syntax
 
 These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
+:confused: This site is created in Markdown, which is then converted to Html. This means that the code is correct but, might not display correctly here. 
 
 ### <u>Heading</u>
 
