@@ -8,6 +8,8 @@ tags: [markdown]
 ## Basic Syntax
 
 These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.
+
+
 :confused: This site is created in Markdown, which is then converted to Html. This means that the code is correct but, might not display correctly here. 
 
 ### <u>Heading</u>
@@ -23,7 +25,7 @@ These are the elements outlined in John Gruber’s original design document. All
 ### Heading Number 3
 
 
-### <u>Italic</u>
+### <u>Italics</u>
 
 ```
 *this is not italian !*
@@ -36,12 +38,26 @@ These are the elements outlined in John Gruber’s original design document. All
 
 ```
 > You Talkin to me!
+> You must be talkin to me!
 ```
 
 > You Talkin to me!
+> You must be talkin to me!
 
 
-### <u>Ordered List</u>
+### <u>List</u>
+
+```
+- Read
+- Try
+- Repeat
+```
+
+- Read
+- Try
+- Repeat
+
+### <u>Numbered List</u>
 
 ```
 1. Eggs
@@ -53,17 +69,6 @@ These are the elements outlined in John Gruber’s original design document. All
 2. Red Peppers
 3. Onions
 
-### <u>Unordered List</u>
-
-```
-- Read
-- Try
-- Repeat
-```
-
-- Read
-- Try
-- Repeat
 
 ### <u>Code</u>
 
@@ -89,10 +94,10 @@ These are the elements outlined in John Gruber’s original design document. All
 
 ### <u>Image</u>
 ```
-![a little penguin](https://www.markdownguide.org/assets/images/tux.png)
+![a penguin](https://www.markdownguide.org/assets/images/tux.png)
 ```
 
-![a little penguin](https://www.markdownguide.org/assets/images/tux.png)
+![a penguin](https://www.markdownguide.org/assets/images/tux.png)
 
 ---
 
@@ -103,13 +108,11 @@ More syntax that is not always available. This depends on the Markdown used.
 ### <u>Table</u>
 ```
 | Item | Desc. |
-| ----------- | ----------- |
 | one | Item 1 |
 | two | Item 2 |
 ```
 
 | Item | Desc. |
-| ----------- | ----------- |
 | one | Item 1 |
 | two | Item 2 |
 
@@ -133,9 +136,9 @@ Three backticks
 
 ### <u>Task Lists are cool</u>
 ```
-- [x] I did this thing
-- [ ] I want to do this
-- [ ] Then. I will do this
+- [x]  I did this thing
+- [ ]  I want to do this
+- [ ]  Then, I will do this
 ```
 
 - [x] I did this thing
@@ -150,14 +153,6 @@ Don't forget to leave a star for our service! :star:
 
 
 Don't forget to leave a star for our service! :star:
-
-
-### <u>Highlight</u>
-```
-I think this is ==important== !
-```
-
-I think this is ==important== !
 
 ---
 # See also..
