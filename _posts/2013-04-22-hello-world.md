@@ -7,4 +7,7 @@ tags: [Random]
 redirect_from:
   - /2013/04/22/
 ---
-Hello World! This is the beginning of this theme.
+The good old Hello World test! 
+
+
+This is the beginning of this site.
