@@ -8,7 +8,7 @@ redirect_from:
   - /2023/05/09/
 ---
 
-## Common RAID Levels
+## These are the common RAID Levels
 
 ![Raid Levels](/assets/images/RAID-10.png)
 
