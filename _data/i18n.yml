@@ -1,10 +1,10 @@
 en: &en
-  about: 'About'
+  about: 'Home'
   articles: 'Articles'
   back_to_top: 'Back to Top'
   categories: 'Categories'
   close: 'Close'
-  enter_blog: 'Enter Blog'
+  enter_blog: 'Enter'
   last_updated: 'Last updated'
   menu: 'Menu'
   more: 'More'
@@ -16,7 +16,7 @@ en: &en
   published: 'Published'
   redirecting: 'Redirecting...'
   search: 'Search'
-  search_not_found: 'Oh shucks<br/><small>Nothing found :(</small>'
+  search_not_found: 'YIKES!<br/><small>Nothing was found :(</small>'
   search_placeholder: 'Search...'
   search_results: 'Search results'
   share_post: 'Share Post:'
@@ -25,7 +25,7 @@ en: &en
   show_comments: 'Show Comments'
   show_license: 'Show License'
   tags: 'Tags'
-  theme_info: '<p><small>Theme <a href="https://github.com/yizeng/jekyll-theme-simple-texture" target="_blank">Simple Texture</a> developed by <a href="https://yizeng.me" target="_blank">Yi Zeng</a>, powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.</small></p>'
+  theme_info: '<p><small>Theme <a href="https://github.com/yizeng/jekyll-theme-simple-texture" target="_blank">Simple Texture</a> Thank You to <a href="https://yizeng.me" target="_blank">Yi Zeng</a>, and <a href="https://jekyllrb.com/" target="_blank">Jekyll</a>.</small></p>'
   view: 'View'
 en-us:
   <<: *en
