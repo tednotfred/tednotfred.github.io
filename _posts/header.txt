@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "reset a lost bugzilla password"
-description: "How to reset a Bugzilla password."
-categories: [uncategorized]
+title: "My Title"
+description: "Ths post will do this."
+categories: [zero]
 tags: [Security, Servers]
 redirect_from:
   - /2024/05/10/

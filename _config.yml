@@ -36,7 +36,7 @@ author:
     - name: facebook
       url:
     - name: github
-      url: https://github.com/yizeng/jekyll-theme-simple-texture
+      url: https://tednotfred.github.io/
     - name: instagram
       url:
     - name: linkedin
@@ -54,7 +54,7 @@ home:
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
-  footer_content: This site is my digital shoebox for the notes and content I have collected over the years.
+  footer_content: This site is my digital shoebox for the notes and content I have collected over the years. --Ted
 
 disqus:
   shortname: # e.g. yizeng
