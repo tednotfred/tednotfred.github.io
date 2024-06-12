@@ -54,7 +54,7 @@ home:
 blog:
   cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
   cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
-  footer_content: This site is my digital shoebox for the notes and content I have collected over the years. --Ted
+  footer_content: My digital shoebox. --Ted
 
 disqus:
   shortname: # e.g. yizeng
